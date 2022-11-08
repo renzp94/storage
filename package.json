@@ -1,0 +1,45 @@
+{
+  "name": "@renzp/storage",
+  "version": "0.0.1",
+  "description": "localStorage Helper",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "tsup --watch src",
+    "build": "tsup",
+    "pub": "npm run build && npm publish"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renzp94/storage.git"
+  },
+  "keywords": [
+    "localStorage",
+    "helper"
+  ],
+  "author": "renzp <1074720760.qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/renzp94/storage/issues"
+  },
+  "homepage": "https://github.com/renzp94/storage#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.16",
+    "@typescript-eslint/eslint-plugin": "^5.11.0",
+    "@typescript-eslint/parser": "^5.11.0",
+    "eslint": "^8.9.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.5.1",
+    "tsup": "^5.11.13",
+    "typescript": "^4.5.5"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  }
+}
