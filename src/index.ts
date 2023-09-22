@@ -1,4 +1,4 @@
-const isUndef = (v:unknown) => v === undefined || v === null
+const isUndef = (v: unknown) => v === undefined || v === null
 
 export default {
   get: <T = unknown>(key: string): T => {
