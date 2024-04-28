@@ -1,13 +1,15 @@
 {
   "name": "@renzp/storage",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "localStorage Helper",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "type": "module",
   "scripts": {
-    "dev": "tsup --watch src",
-    "build": "tsup",
+    "build": "bun run scripts/build.ts",
+    "pub:npm": "bun run scripts/pub-npm.ts",
+    "pub:jsr": "bun run scripts/pub-jsr.ts",
+    "pub:all": "bun run scripts/pub-all.ts",
     "pub": "npm run build && standard-version && npm publish"
   },
   "files": [
@@ -30,13 +32,16 @@
   "devDependencies": {
     "@biomejs/biome": "^1.4.1",
     "@happy-dom/global-registrator": "^12.10.3",
-    "bun-types": "latest",
+    "bun-plugin-dts": "^0.2.3",
+    "bun-types": "^1.1.5",
     "standard-version": "^9.5.0",
-    "tsup": "^8.0.1",
     "typescript": "^5.3.3"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org",
     "access": "public"
+  },
+  "dependencies": {
+    "@renzp/utils": "^0.0.7"
   }
 }

@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.3](https://github.com/renzp94/storage/compare/v0.0.2...v0.0.3) (2024-04-28)
+
+
+### 其他
+
+* update README ([a57d362](https://github.com/renzp94/storage/commit/a57d362c35e45e73ce750fb478404c5e0eafb31d))
+
 ### 0.0.2 (2024-01-05)
 
 
