@@ -1,22 +1,13 @@
-const isUndef = (v: unknown) => v === undefined || v === null
+import { isJson, isString, isUnDef } from '@renzp/utils'
 
 export default {
-  get: <T = unknown>(key: string): T => {
-    const data: string | null = window.localStorage.getItem(key)
-    try {
-      return data === null ? data : JSON.parse(data)
-    } catch {
-      return data as T
-    }
+  get: <T = unknown>(key: string): T | null => {
+    const data = window.localStorage.getItem(key)
+    return isJson(data) ? JSON.parse(data as string) : data
   },
-  set: (key: string, data: unknown): void => {
-    if (!isUndef(key) && !isUndef(data)) {
-      let payload = data as string
-
-      if (typeof data !== 'string') {
-        payload = JSON.stringify(data)
-      }
-
+  set: <T = unknown>(key: string, data: T): void => {
+    if (!isUnDef(key) && !isUnDef(data)) {
+      const payload = !isString(data) ? JSON.stringify(data) : data
       window.localStorage.setItem(key, payload)
     }
   },
