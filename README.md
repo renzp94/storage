@@ -1,14 +1,20 @@
 <p align="center"><a href="https://github.com/renzp94/storage" target="_blank" rel="noopener noreferrer"><img width="200" src="./logo.png" alt="storage logo"></a></p>
 <p align="center">
-  <a href="https://codecov.io/github/@renzp/storage"><img src="https://img.shields.io/codecov/c/github/@renzp/storage.svg?sanitize=true" alt="Coverage Status"></a>
-  <a href="https://npmcharts.com/compare/@renzp/storage?minimal=true"><img src="https://img.shields.io/npm/dm/@renzp/storage.svg?sanitize=true" alt="Downloads"></a>
-  <a href="https://www.npmjs.com/package/@renzp/storage"><img src="https://img.shields.io/npm/v/@renzp/storage.svg?sanitize=true" alt="Version"></a>
-  <a href="https://www.npmjs.com/package/@renzp/storage"><img src="https://img.shields.io/bundlejs/size/@renzp/storage?sanitize=true" alt="size"></a>
-  <a href="https://www.npmjs.com/package/@renzp/storage"><img src="https://img.shields.io/npm/l/@renzp/storage.svg?sanitize=true" alt="License"></a>
-</p>
-<p align="center">
-  <a href="https://github.com/renzp94/storage/watchers"><img src="https://img.shields.io/github/watchers/renzp94/storage.svg?style=social" alt="watchers"></a>
-  <a href="https://github.com/renzp94/storage/stars"><img src="https://img.shields.io/github/stars/renzp94/storage.svg?style=social" alt="stars"></a>
+  <a href="https://github.com/renzp94/storage/blob/main/coverage.md">
+    <img src="./coverage.svg" alt="Code coverage">
+  </a>
+  <a href="https://www.npmjs.com/package/@renzp/storage">
+    <img src="https://img.shields.io/bundlejs/size/@renzp/storage?sanitize=true" alt="Bundle size">
+  </a>
+  <a href="https://npmcharts.com/compare/@renzp/storage?minimal=true">
+    <img src="https://img.shields.io/npm/dm/@renzp/storage.svg?sanitize=true" alt="Downloads">
+  </a>
+  <a href="https://www.npmjs.com/package/@renzp/storage">
+    <img src="https://img.shields.io/npm/v/@renzp/storage.svg?sanitize=true" alt="Version">
+  </a>
+  <a href="https://www.npmjs.com/package/@renzp/storage">
+    <img src="https://img.shields.io/npm/l/@renzp/storage.svg?sanitize=true" alt="License">
+  </a>
 </p>
 
 # storage

@@ -1,10 +1,11 @@
-import { build, jsrPublish, npmPublish } from './common'
+import { build, coverage, jsrPublish, npmPublish } from './common'
 
 const result = await build()
 
 if (result.success) {
   // biome-ignore lint/suspicious/noConsoleLog: <explanation>
   console.log('📦 打包成功 🎉🎉🎉')
+  await coverage()
   await npmPublish()
   await jsrPublish()
   await Bun.$`git push origin --follow-tags`
