@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.4](https://github.com/renzp94/storage/compare/v0.0.3...v0.0.4) (2024-06-02)
+
+
+### 其他
+
+* 将tsup打包换成 bun ([00a8932](https://github.com/renzp94/storage/commit/00a8932a2ae7a1bf8be4d07772c0ff93e227668c))
+* 添加coverage徽章 ([3d8ffdc](https://github.com/renzp94/storage/commit/3d8ffdc2467473da1a20bf81ac72adcf08316862))
+
 ### [0.0.3](https://github.com/renzp94/storage/compare/v0.0.2...v0.0.3) (2024-04-28)
 
 

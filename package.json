@@ -1,6 +1,6 @@
 {
   "name": "@renzp/storage",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "localStorage Helper",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -13,12 +13,18 @@
     "pub": "npm run build && standard-version && npm publish",
     "coverage": "bun run scripts/coverage.ts"
   },
-  "files": ["lib", "./coverage.svg"],
+  "files": [
+    "lib",
+    "./coverage.svg"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/renzp94/storage.git"
   },
-  "keywords": ["localStorage", "helper"],
+  "keywords": [
+    "localStorage",
+    "helper"
+  ],
   "author": "renzp <1074720760.qq.com>",
   "license": "MIT",
   "bugs": {
