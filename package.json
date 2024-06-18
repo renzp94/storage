@@ -44,6 +44,6 @@
     "access": "public"
   },
   "dependencies": {
-    "@renzp/utils": "^0.0.19"
+    "@renzp/utils": "^0.2.0"
   }
 }
