@@ -48,12 +48,17 @@
     {
       "type": "build",
       "section": "构建",
-      "hidden": false
+      "hidden": true
     },
     {
       "type": "ci",
       "section": "CI配置",
-      "hidden": false
+      "hidden": true
+    },
+    {
+      "type": "jsr",
+      "section": "jsr",
+      "hidden": true
     }
   ]
 }

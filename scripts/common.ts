@@ -113,5 +113,5 @@ export const jsrPublish = async () => {
   await Bun.write('./jsr.json', JSON.stringify(jsrConfig, null, 2))
   await Bun.$`bunx jsr publish --allow-dirty`
   await Bun.$`git add jsr.json`
-  await Bun.$`git commit -m "chore(jsr:${jsrConfig.version}): published"`
+  await Bun.$`git commit -m "jsr(${jsrConfig.version}): published"`
 }
