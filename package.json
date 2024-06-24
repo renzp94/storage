@@ -10,21 +10,14 @@
     "pub:npm": "bun run scripts/pub-npm.ts",
     "pub:jsr": "bun run scripts/pub-jsr.ts",
     "pub:all": "bun run scripts/pub-all.ts",
-    "pub": "npm run build && standard-version && npm publish",
-    "coverage": "bun run scripts/coverage.ts"
+    "pub": "npm run build && standard-version && npm publish"
   },
-  "files": [
-    "lib",
-    "./coverage.svg"
-  ],
+  "files": ["lib"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/renzp94/storage.git"
   },
-  "keywords": [
-    "localStorage",
-    "helper"
-  ],
+  "keywords": ["localStorage", "helper"],
   "author": "renzp <1074720760.qq.com>",
   "license": "MIT",
   "bugs": {

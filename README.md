@@ -1,7 +1,7 @@
 <p align="center"><a href="https://github.com/renzp94/storage" target="_blank" rel="noopener noreferrer"><img width="200" src="./logo.png" alt="storage logo"></a></p>
 <p align="center">
-  <a href="https://github.com/renzp94/storage/blob/main/coverage.md">
-    <img src="./coverage.svg" alt="Code coverage">
+  <a href="https://codecov.io/gh/renzp94/storage" > 
+    <img src="https://codecov.io/gh/renzp94/storage/graph/badge.svg?token=GBIPNWKPRT"/> 
   </a>
   <a href="https://www.npmjs.com/package/@renzp/storage">
     <img src="https://img.shields.io/bundlejs/size/@renzp/storage?sanitize=true" alt="Bundle size">
