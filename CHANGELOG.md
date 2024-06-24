@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.0.0](https://github.com/renzp94/storage/compare/v0.0.5...v1.0.0) (2024-06-24)
+
+
+### 其他
+
+* **jsr:0.0.5:** published ([e329621](https://github.com/renzp94/storage/commit/e3296213415dc113634f0a7502e98ec149d3be6f))
+
 ### [0.0.5](https://github.com/renzp94/storage/compare/v0.0.4...v0.0.5) (2024-06-24)
 
 
