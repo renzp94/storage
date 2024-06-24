@@ -1,6 +1,6 @@
 {
   "name": "@renzp/storage",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "localStorage Helper",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -11,12 +11,17 @@
     "pub:jsr": "bun run scripts/pub-jsr.ts",
     "pub:all": "bun run scripts/pub-all.ts"
   },
-  "files": ["lib"],
+  "files": [
+    "lib"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/renzp94/storage.git"
   },
-  "keywords": ["localStorage", "helper"],
+  "keywords": [
+    "localStorage",
+    "helper"
+  ],
   "author": "renzp <1074720760.qq.com>",
   "license": "MIT",
   "bugs": {

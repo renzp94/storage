@@ -2,6 +2,29 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.5](https://github.com/renzp94/storage/compare/v0.0.4...v0.0.5) (2024-06-24)
+
+
+### 其他
+
+* 更新依赖 ([10a0147](https://github.com/renzp94/storage/commit/10a01474eb35541e523332962399b3382eaa3384))
+* 更新依赖包 ([2bed494](https://github.com/renzp94/storage/commit/2bed494de86390e66ee2ab975fdfc4aaf643b20f))
+* 将happy-dom注入排除测试用例执行 ([712ee7f](https://github.com/renzp94/storage/commit/712ee7fab44428dc44fa4d0affc8606c042607ab))
+* 优化npm发布 ([fb132d1](https://github.com/renzp94/storage/commit/fb132d1c23dbbda4161f1df420501091a7498746))
+* **jsr:0.0.4:** published ([0998bc7](https://github.com/renzp94/storage/commit/0998bc7ce6c971393a20fa0201d19799a166c96d))
+
+
+### CI配置
+
+* 将本地coverage转为codecov ([f6453fb](https://github.com/renzp94/storage/commit/f6453fb13b7b72863c7d563a2b27de95c5f24378))
+
+
+### 构建
+
+* 更新依赖 ([efaf650](https://github.com/renzp94/storage/commit/efaf650ff22fd6dac06adf9119651c3c7a2b06bc))
+* 忽略coverage目录 ([639dff1](https://github.com/renzp94/storage/commit/639dff1d4b179ea782366846cc78ae10319b3b64))
+* 移除无用脚本命令 ([c08b61d](https://github.com/renzp94/storage/commit/c08b61df606e2cbcec9f734e36d25b0fe93ceda0))
+
 ### [0.0.4](https://github.com/renzp94/storage/compare/v0.0.3...v0.0.4) (2024-06-02)
 
 
