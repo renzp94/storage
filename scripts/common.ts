@@ -1,53 +1,9 @@
-import { exists, readdir, unlink } from 'node:fs/promises'
-import path from 'node:path'
-import dts from 'bun-plugin-dts'
-
-/**
- * 删除dist 目录
- */
-export const rmDist = async (outDir: string) => {
-  const hasDist = await exists(outDir)
-  if (hasDist) {
-    const distFiles = await readdir(outDir)
-    const rmFiles = distFiles.map((file) => {
-      return unlink(`${outDir}/${file}`)
-    })
-
-    await Promise.all(rmFiles)
-  }
-}
-
-/**
- * 获取入口文件
- */
-const getEntrypoints = async () => {
-  const files = await readdir('./src')
-  const entrypoints = files
-    .filter((file) => !file.includes('_'))
-    .map((file) => `./src/${file}`)
-
-  return entrypoints
-}
+import { exists, readdir } from 'node:fs/promises'
 
 /**
  * 打包
  */
-export const build = async () => {
-  const outDir = './lib'
-  // biome-ignore lint/suspicious/noConsoleLog: <explanation>
-  console.log('📦 打包中...')
-  await rmDist(outDir)
-  const entrypoints = await getEntrypoints()
-  return await Bun.build({
-    entrypoints,
-    outdir: outDir,
-    naming: '[name].[ext]',
-    splitting: true,
-    minify: true,
-    format: 'esm',
-    plugins: [dts()],
-  })
-}
+export const build = () => Bun.$`bun run build`
 
 /**
  * npm发布

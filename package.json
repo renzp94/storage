@@ -2,45 +2,40 @@
   "name": "@renzp/storage",
   "version": "1.0.0",
   "description": "localStorage Helper",
-  "main": "./lib/index.js",
-  "types": "./lib/index.d.ts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "type": "module",
   "scripts": {
-    "build": "bun run scripts/build.ts",
+    "build": "nubuild build",
     "pub:npm": "bun run scripts/pub-npm.ts",
     "pub:jsr": "bun run scripts/pub-jsr.ts",
     "pub:all": "bun run scripts/pub-all.ts"
   },
-  "files": [
-    "lib"
-  ],
+  "files": ["dist"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/renzp94/storage.git"
   },
-  "keywords": [
-    "localStorage",
-    "helper"
-  ],
+  "keywords": ["localStorage", "helper"],
   "author": "renzp <1074720760.qq.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/renzp94/storage/issues"
   },
   "homepage": "https://github.com/renzp94/storage#readme",
-  "devDependencies": {
-    "@biomejs/biome": "^1.8.0",
-    "@happy-dom/global-registrator": "^14.12.0",
-    "bun-plugin-dts": "^0.2.3",
-    "bun-types": "^1.1.12",
-    "standard-version": "^9.5.0",
-    "typescript": "^5.4.5"
-  },
   "publishConfig": {
     "registry": "https://registry.npmjs.org",
     "access": "public"
   },
+  "devDependencies": {
+    "@biomejs/biome": "^1.8.0",
+    "@happy-dom/global-registrator": "^14.12.0",
+    "@nubuild/cli": "^0.0.3",
+    "@types/bun": "^1.1.6",
+    "standard-version": "^9.5.0",
+    "typescript": "^5.4.5"
+  },
   "dependencies": {
-    "@renzp/utils": "^0.3.0"
+    "@renzp/utils": "^0.3.8"
   }
 }
