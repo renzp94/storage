@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.1](https://github.com/renzp94/storage/compare/v1.0.0...v1.0.1) (2024-08-05)
+
+
+### 其他
+
+* 调整打包工具为nubuild ([9141dff](https://github.com/renzp94/storage/commit/9141dffcf7bbb27ed05a26841dc9da235ac6647b))
+
 ## [1.0.0](https://github.com/renzp94/storage/compare/v0.0.5...v1.0.0) (2024-06-24)
 
 
